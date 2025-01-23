@@ -14,3 +14,15 @@ function adicionarAmigo() {
         alert("Por favor, insira um nome.")
     }
 }
+function sortearAmigo(){
+    if (amigos.length >= 2) {
+    let sorteio = parseInt(Math.random()* amigos.length);
+    console.log("O amigo secreto é: " + amigos[sorteio]);
+    resultado.innerHTML = `O amigo secreto sorteado é: ${amigos[sorteio]}`;
+    amigos = [];
+   // listElements();
+    } else {
+        alert("Precisa adicionar mas de um amigo para poder realizar o sorteio");
+    }
+    
+}
