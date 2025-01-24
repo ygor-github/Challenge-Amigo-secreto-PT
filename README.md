@@ -1,5 +1,6 @@
 # Amigo Secreto
 
+![Amigo Secreto](https://github.com/user-attachments/assets/3e3fb130-4fe2-4d14-98ef-c27acaf07d5f)
 Este é um projeto simples de sorteio de amigo secreto, desenvolvido com HTML, CSS e JavaScript. O objetivo principal é fortalecer habilidades em lógica de programação.
 
 ## Estrutura do Projeto
