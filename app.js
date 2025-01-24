@@ -5,6 +5,7 @@ let listaAmigos = document.getElementById("listaAmigos");
 
 function adicionarAmigo() {
     let nome = addAmigo.value;
+    resultado.innerHTML = "";
     if ( nome != ""){
         amigos.push(nome);
         addAmigo.value = "";
